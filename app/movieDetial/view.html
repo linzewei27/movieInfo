@@ -1,0 +1,15 @@
+<div class="jumbotron">
+	<h1>{{data.title}}</h1>
+	<img ng-src="{{data.images.large}}" alt={{data.title}}>
+	<p>{{data.summary}}</p>
+</div>
+
+<div class="bg"  ng-if="loadding">
+	<div class="loading">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+</div>
